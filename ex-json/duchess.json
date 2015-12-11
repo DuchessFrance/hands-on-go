@@ -1,0 +1,14 @@
+{
+  "organisation": "Duchess France",
+  "team": "Go",
+  "members" : [
+    {
+      "name" : "Jawher Moussa",
+      "status" : "freelance"
+    },
+    {
+      "name" : "Katia Aresti",
+      "status" : "freelance"
+    }
+  ]
+}
