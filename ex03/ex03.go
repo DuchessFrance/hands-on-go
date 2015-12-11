@@ -18,5 +18,14 @@ func (p Person) IsAdult() bool {
 
 // TODO: 4. Déclarer une méthode IsAdult sur Person qui renvoie true quand l'age est supérieur ou égal à 18, false sinon
 func (p Person) IsValid() bool {
+	if len(p.Name) == 0 {
+		return false
+	}
+	if p.Age < 0 {
+		return false
+	}
+	if p.Age > 130 {
+		return false
+	}
 	return true
 }
