@@ -1,4 +1,4 @@
-# Exercice 01
+# Exercice 01 - Hello World
 
 ## 1. Création du fichier go
 Ecrire un hello world en go:

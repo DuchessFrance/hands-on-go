@@ -1,4 +1,4 @@
-# Exercice 02
+# Exercice 02 - Functions
 
 Exécuter avec `go test`, s'assurer que les tests passent correctement.
  

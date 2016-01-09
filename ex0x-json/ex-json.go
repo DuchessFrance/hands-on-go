@@ -5,10 +5,6 @@ import (
 	"io/ioutil"
 )
 
-//"path/filepath"
-//"io/ioutil"
-//"encoding/json"
-
 type DuchessFrance struct {
 	Organisation string
 	Team         string

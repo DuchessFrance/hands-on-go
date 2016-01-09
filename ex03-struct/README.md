@@ -1,4 +1,4 @@
-# Exercice 03
+# Exercice 03 - Structs
 
 Exécuter avec `go test`, s'assurer que les tests passent correctement.
  
