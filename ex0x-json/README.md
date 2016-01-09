@@ -10,5 +10,5 @@ Des exemples on-line :
 
 ## Load Json data dans une struct
 
-* Lire un fichier avec io/ioutil
-* Parser le contenu dans la structure DuchessFrance
+* Lire un fichier avec `io/ioutil`
+* Parser le contenu dans la structure `DuchessFrance`
