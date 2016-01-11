@@ -3,10 +3,10 @@ package ex_json
 import (
 	"testing"
 
-	"github.com/stretchr/testify/require"
+	"reflect"
 )
 
-func TestExJson_01(t *testing.T) {
+func TestExJson01(t *testing.T) {
 
 	actual := LoadJsonData()
 
@@ -24,5 +24,8 @@ func TestExJson_01(t *testing.T) {
 			},
 		},
 	}
-	require.Equal(t, expected, actual)
+
+	if !reflect.DeepEqual(expected, actual) {
+		t.Fatalf("Le struct renvoyé par LoadJsonData est incorrect")
+	}
 }

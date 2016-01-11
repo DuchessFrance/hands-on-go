@@ -7,7 +7,7 @@ import (
 
 	"encoding/json"
 
-	"github.com/stretchr/testify/require"
+	"reflect"
 )
 
 func TestHello(t *testing.T) {
@@ -22,7 +22,9 @@ func TestHello(t *testing.T) {
 		t.Fatalf("Erreur de lecture sur la réponse de /hello: %v", err)
 	}
 
-	require.Equal(t, "Hello World", string(contents))
+	if string(contents) != "Hello World" {
+		t.Fatalf("/hello a renvoyé %q plutôt que %q", contents, "Hello World")
+	}
 }
 
 func TestDuchesses(t *testing.T) {
@@ -39,7 +41,11 @@ func TestDuchesses(t *testing.T) {
 
 	var actual []Duchess
 	err = json.Unmarshal(contents, &actual)
-	require.NoError(t, err, "Problème de parsing du json de /duchesses: %v", err)
+	if err != nil {
+		t.Fatalf("Problème de parsing du json de /duchesses: %v", err)
+	}
 
-	require.Equal(t, duchesses, actual)
+	if !reflect.DeepEqual(duchesses, actual) {
+		t.Fatalf("Le json renvoyé par /duchesses est incorrect")
+	}
 }
