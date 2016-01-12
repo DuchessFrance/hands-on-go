@@ -1,4 +1,4 @@
-# Exercice JSON
+# Exercice 05 - JSON
 
 Exécuter avec `go test`, s'assurer que les tests passent correctement.
  

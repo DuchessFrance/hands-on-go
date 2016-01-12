@@ -1,6 +1,6 @@
-# Exercice Http
+# Exercice 06 - Http
 
-Exécuter avec `go run ex0y.go` le serveur http
+Exécuter avec `go run ex06.go` le serveur http
 
 `http://localhost:8080` un server http écoute des requêtes
 
