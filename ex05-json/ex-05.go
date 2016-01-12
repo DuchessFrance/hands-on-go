@@ -1,10 +1,5 @@
 package ex_json
 
-import (
-	"encoding/json"
-	"io/ioutil"
-)
-
 type DuchessFrance struct {
 	Organisation string
 	Team         string
@@ -18,17 +13,10 @@ type People struct {
 
 // TODO : Implémenter la fonction LoadJSON
 func LoadJsonData() DuchessFrance {
-	duchessFrance := DuchessFrance{}
 
-	// TODO : Lire à l'aide de ioutil le fichier duchess.json
-	dat, err := ioutil.ReadFile("duchess.json")
-	if err != nil {
-		panic(err)
-	}
+	// TODO 1 : Lire à l'aide de ioutil le fichier duchess.json
 
-	// TODO : Unmarshal les données et remplir le struct duchessFrance
+	// TODO 2 : Unmarshal les données et remplir le struct duchessFrance
 
-	json.Unmarshal(dat, &duchessFrance)
-
-	return duchessFrance
+	return nil
 }

@@ -12,4 +12,5 @@ La documentation on-line :
 ## Load Json data dans une struct
 
 * **TODO 1** : Afficher 'Hello Word'
-* **TODO 2** : Créer votre propre handler, et créer un service GET qui affichera les données `duchesses` dans la réponse
+* **TODO 2** : Créer un nouveau service GET sur la route `duchesses`
+* **TODO 3** : Implémenter votre handler qui affichera les données `duchesses` dans la réponse

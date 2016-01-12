@@ -8,7 +8,7 @@ Des exemples on-line :
 * https://gobyexample.com/reading-files
 
 
-## Load Json data dans une struct
+## Load Json data dans le struct DuchessFrance
 
-* Lire un fichier avec `io/ioutil`
-* Parser le contenu dans la structure `DuchessFrance`
+* **TODO 1** - Lire un fichier avec `io/ioutil`
+* **TODO 2** - Parser le contenu dans la structure `DuchessFrance`
