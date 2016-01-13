@@ -1,9 +1,6 @@
 package main
 
-import (
-	"encoding/json"
-	"net/http"
-)
+import "net/http"
 
 type Duchess struct {
 	Name   string

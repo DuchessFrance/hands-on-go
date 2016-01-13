@@ -14,13 +14,13 @@ La doc on-line :
 On apprendera à créer le premier programme et à utiliser les outils tels que `go run`
 
 * **Exercice 2 - Functions**
-Première fonction en GO
+Premières fonctions en GO
 
 * **Exercice 3 - Struct**
-On apprendra comment créer des structs et comment rajouter des méthodes
+On apprendra comment créer des structs et comment définir des méthodes
 
 * **Exercice 4 - Slice**
-Manipulation des tableaux dynamiques (Slices), création, rajouter et parcourir
+Manipulation des slices: création, ajout et parcours
 
 * **Exercice JSON**
 Apprendre à manipuler du JSON avec GO

@@ -1,6 +1,7 @@
 # Exercice 02 - Functions
  
-Exécuter avec `go test`, s'assurer que les tests passent correctement. 
+Exécuter `go test` dans le dossier `ex02-func` pour s'assurer que les tests passent correctement.
+ 
 Le premier message d'erreur est de compilation
 
 Des exemples on-line :

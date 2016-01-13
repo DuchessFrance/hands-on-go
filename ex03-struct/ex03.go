@@ -12,4 +12,6 @@ type Person struct {
 
 // TODO: 3. Déclarer une méthode IsAdult sur Person qui renvoie true quand l'age est supérieur ou égal à 18, false sinon
 
-// TODO: 4. Déclarer une méthode IsValid sur Person qui renvoie true quand l'age est supérieur ou égal à 18, false sinon
+// TODO: 4. Déclarer une méthode IsValid sur Person qui renvoie true quand:
+// - le nom n'est pas vide
+// - l'age est entre 0 et 130

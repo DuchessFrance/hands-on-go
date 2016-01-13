@@ -14,7 +14,7 @@ Exécuter avec `go run ex01.go`, s'assurer que ça affiche `Hello world`
 ## 3. Exécution avec `go build`
 
 * Transformer le code source en un exécutable en exécutant `go build`
-* Vérifier qu'un fichier `ex01` a été crée dans le même dossier
-* Exécuter `./ex01`, s'assurer que ça affiche `Hello world`
+* Vérifier qu'un fichier `ex01-helloworld` a été crée dans le même dossier
+* Exécuter `./ex01-helloworld`, s'assurer que ça affiche `Hello world`
  
  
